@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="card">
+        <form class="quiz">
+            <h3 class="question">Which language runs in a web browser?</h3>
+            <label for="optionA">
+                <input type="radio" name="options" id="optionA" value="a" />
+                <span id="optionAText"></span>
+            </label>
+            <label for="optionB">
+                <input type="radio" name="options" id="optionB" value="b" />
+                <span id="optionBText"></span>
+            </label>
+            <label for="optionC">
+                <input type="radio" name="options" id="optionC" value="c" />
+                <span id="optionCText"></span>
+            </label>
+            <label for="optionD">
+                <input type="radio" name="options" id="optionD" value="d" />
+                <span id="optionDText"></span>
+            </label>
+
+            <div class="buttons">
+                <p class="result"></p>
+                <button type="button" id="submitBtn">Submit</button>
+                <button type="button" id="resetBtn">Reset</button>
+
+            </div>
+        </form>
+    </div>
+
+</body>
+<script type="module" src="index.js"></script>
+
+</html>
