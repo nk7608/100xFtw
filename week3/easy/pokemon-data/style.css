@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  background: url(blue-bg.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  margin: 40px auto;
+  max-width: 800px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+.container input {
+  font-size: 1.2rem;
+  padding: 12px;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.dropdownBtn {
+  font-size: 1.2rem;
+  color: hsla(0, 0%, 29%, 0.95);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: hsla(55, 82%, 67%, 0.99);
+  width: 100%;
+  padding: 12px 0;
+  box-sizing: border-box;
+}
+
+.dropdown button:active {
+  background-color: hsla(55, 82%, 77%, 0.9);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.categories {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  max-width: 200px;
+  width: 100%;
+  background-color: hsla(55, 82%, 77%, 0.99);
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 10;
+  border-radius: 8px;
+  transition: transform 0.5s ease;
+}
+
+.categories a {
+  color: hsla(0, 0%, 13%, 0.8);
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.categories a:hover {
+  cursor: pointer;
+  color: hsla(0, 0%, 33%, 0.9);
+}
+
+.submitWrapper button {
+  font-size: 1.2rem;
+  padding: 12px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  color: hsla(0, 0%, 29%, 0.95);
+  background-color: hsla(55, 82%, 67%, 0.99);
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.submitWrapper button:active {
+  background-color: hsla(55, 82%, 77%, 0.9);
+}
+
+.display {
+  margin: 20px auto;
+  max-width: 900px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.card {
+  width: 100%;
+  background-color: white;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px hsla(0, 0%, 66%, 0.54);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.error {
+  margin: 20px auto;
+  max-width: 800px;
+  width: 90%;
+  padding: 12px 16px;
+  display: none;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 2rem;
+  color: #b22222;
+  border: 1px solid #b22222;
+  background-color: hsla(55, 82%, 77%, 0.99);
+}
