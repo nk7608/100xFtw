@@ -1,4 +1,4 @@
-## Grinding Grinding JS to Become a 100x Dev 🚀
+## Grinding to Become a 100x Dev 🚀
 
 Hey! I’m currently grinding JavaScript and building projects as part of Harkirat’s Cohort3 at 100xDevs.
 This repo has my assignments and code from the course — I’ll keep updating it with deployed projects and more as I go.
