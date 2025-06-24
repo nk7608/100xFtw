@@ -1,12 +1,20 @@
 body {
   margin: 0;
   height: 100vh;
-  font-family: Verdana, sans-serif;
+  font-family: "Cinzel", serif;
   font-weight: bold;
   background: url(blue-bg.png);
   background-position: center;
   background-size: cover;
   position: relative;
+}
+
+h1,
+h2,
+h3,
+button,
+input {
+  font-family: "Amatic SC", cursive, sans-serif;
 }
 
 .container {
